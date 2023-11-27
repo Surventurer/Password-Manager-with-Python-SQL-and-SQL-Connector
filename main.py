@@ -1,5 +1,14 @@
 # Password Manager
 ## MAIN PROGRAM ##
+
+## IF THE LOCKMODULE IS NOT IMPORTED USING RELATIVE IMPORT ##
+#THEN ADD THESE COMMAND LINES AS WELL#
+#   |
+#   V
+#import sys
+#sys.path.append("enter the path directory of the python file")
+
+
 from lockmodule import *
 fstpage()
 go = True
