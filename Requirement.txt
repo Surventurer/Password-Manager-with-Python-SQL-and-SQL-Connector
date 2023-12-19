@@ -1,5 +1,5 @@
 1.  Install (pip install mysql.connector)
-2. Install Mysql server and follow the further step:-
+2. Install Mysql server and make the hostname-localhost, password- 3344, username- root and follow the further step:-
     a.  Create a database {Create database lockword;}.
     b.  open the database {use lockword}.
     c.  create a table {create table user (Name char(50),Mobile char(10), username char(30), password char(40))}.
